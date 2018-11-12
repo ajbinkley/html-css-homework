@@ -1,0 +1,103 @@
+
+
+body {
+    background-color: #ededed;
+}
+
+body div.container-fluid {
+    padding: 20px 50px 20px;
+}
+
+body.data {
+    padding: 20px 50px 20px;
+}
+
+h1 {
+
+    margin-bottom: 10%;
+    font-size: 2em;
+    color: #0bada6;
+}
+
+p {
+    line-height: 2em; 
+}
+
+img.featured-image {
+    width: 50%;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.viz-featured-image {
+    width: 100%;
+
+}
+
+img.image-viz {
+    width: 40%;
+}
+
+img.image-viz-compare {
+    width: 100%;
+}
+
+.center-align {
+    text-align: center;
+}
+
+nav {
+    padding: 0em 5em 0em 8em !important;
+    background-color: white;
+}
+
+
+.row-container {
+    background-color: white;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.navbar-brand {
+    background-color: #0bada6;
+    color: white !important;
+    padding: 10px;
+}
+
+.selected {
+    border: 2px solid #0bada6;
+}
+
+ .compare-item {
+    display: inline-block;
+    width: 40%;
+} 
+
+.compare-item h2 {
+    font-size: 1em;
+    color: #0bada6;
+}
+
+.row-container.viz {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media (max-width: 990px) {
+
+    img.image-viz {
+        width: 20%;
+    }
+
+    .compare-item {
+        display: block;
+        width: 100%;
+    }
+
+    nav {
+        background-color: #0bada6;
+    }
+
+}
+
